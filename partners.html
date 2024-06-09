@@ -3,17 +3,41 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Home Page | AvionAI</title>
+  <title>Partners</title>
 
   <link
-    href="static/css/style3.css"
+    href="static/css/style2.css"
     rel="stylesheet"
     type="text/css"
   >
   <link rel="icon" type="image/x-icon" href="./static/favicon.ico">
   <style>
-    .monospace-font {
-      font-family: 'Space Mono', monospace;
+    /* Slider */
+    .swiper-wrapper {
+      height: auto !important;
+    }
+
+    .swiper-slide {
+      height: auto !important;
+    }
+
+    .w-slider-dot {
+      border-radius: 50%;
+      height: 6px;
+      width: 6px;
+      margin: 0 8px;
+      background-color: #C7CCD6;
+    }
+
+    .w-slider-dot.w-active {
+      background-color: #344d91;
+    }
+
+    /* Inputs */
+    .form-field_label,
+    .form-field_opt {
+      pointer-events: none;
+      user-select: none;
     }
   </style>
 </head>
@@ -27,6 +51,7 @@
             --webFont: 62.5%
           }
 
+          /* ///////////////////// START OF GLOBAL EDITS ///////////////////// */
           main:focus-visible {
             outline: -webkit-focus-ring-color auto 0px;
           }
@@ -353,6 +378,10 @@
             display: none !important;
           }
 
+
+
+
+
           @media screen and (max-width: 479px) {
             .hide-mobile {
               display: none !important;
@@ -463,9 +492,6 @@
       </div>
       <div class="custom-styles w-embed">
         <style>
-          /* ///////////////////// ELEMENTS ///////////////////// */
-
-          /* Arrows */
           a:hover [link-arrow] {
             color: white;
           }
@@ -588,6 +614,13 @@
         </style>
       </div>
     </div>
+    <div class="embed w-embed">
+      <style>
+        .navbar_wrapper {
+          height: 0;
+        }
+      </style>
+    </div>
     <nav class="navbar_wrapper dark">
       <div class="section overflow-visible navbar">
         <div class="nav">
@@ -705,11 +738,11 @@
                                       </div>
                                       <div class="nav_dropdown-menu_links">
                                         <a
-                                          href="index2.html"
+                                          href="atmosphericForecast.html"
                                           class="nav_link w-inline-block active"
                                         >
                                           <div class="nav_dropdown-link_inner">
-                                            <div>Atmospheric Forecast</div>
+                                            <div>AI-Atmospheric Forecast</div>
                                             <div class="nav_dropdown-link_par">
                                               
                                             </div>
@@ -813,7 +846,7 @@
                               <div class="icon-embed-small text-color-odessy500 w-embed"><svg
                                   width="100%"
                                   height="100%"
-                                  viewBox="0 0 20 21"
+                                  viewbox="0 0 20 21"
                                   fill="none"
                                   xmlns="http://www.w3.org/2000/svg"
                                 >
@@ -844,8 +877,9 @@
                                         </div>
                                         
                                         <div class="nav_dropdown-menu_links">
+
                                           <a
-                                            href="index2.html"
+                                            href="events.html"
                                             class="nav_link w-inline-block"
                                           >
                                             <div class="nav_dropdown-link_inner">
@@ -901,7 +935,7 @@
                               <div class="icon-embed-small w-embed"><svg
                                   width="100%"
                                   height="100%"
-                                  viewBox="0 0 21 21"
+                                  viewbox="0 0 21 21"
                                   fill="none"
                                   xmlns="http://www.w3.org/2000/svg"
                                 >
@@ -920,7 +954,7 @@
                               <div class="icon-embed-small text-color-odessy500 w-embed"><svg
                                   width="100%"
                                   height="100%"
-                                  viewBox="0 0 20 21"
+                                  viewbox="0 0 20 21"
                                   fill="none"
                                   xmlns="http://www.w3.org/2000/svg"
                                 >
@@ -954,8 +988,8 @@
                                         </div>
                                         <div class="nav_dropdown-menu_links">
                                           <a
-                                            href="index2.html"
-                                            class="nav_link w-inline-block"
+                                            href="partners.html"
+                                            class="nav_link w-inline-block active"
                                           >
                                             <div class="nav_dropdown-link_inner">
                                               <div>Partners</div>
@@ -985,7 +1019,7 @@
                                                 </svg></div>
                                             </div>
                                           </a><a
-                                            href="home.html"
+                                            href="aboutUs.html"
                                             class="nav_link w-inline-block"
                                           >
                                             <div class="nav_dropdown-link_inner">
@@ -1020,9 +1054,9 @@
                                                   ></path>
                                                 </svg></div>
                                             </div>
-                                          </a>
+                                          </a></div>
                                       </div>
-</div>
+                                      </div>
                                       <div class="nav_dropdown-part desc">
                                         <div class="nav_dropdown-menu_desc">
                                           <div nav-description="" class="text-label-regular text-weight-normal text-color-space100">Network Management</div><p class="text-size-small text-color-space400" style="opacity: 1;">
@@ -1045,7 +1079,7 @@
                               <div class="icon-embed-small w-embed"><svg
                                   width="100%"
                                   height="100%"
-                                  viewbox="0 0 21 21"
+                                  viewBox="0 0 21 21"
                                   fill="none"
                                   xmlns="http://www.w3.org/2000/svg"
                                 >
@@ -1061,7 +1095,7 @@
                               <div class="icon-embed-small text-color-odessy500 w-embed"><svg
                                   width="100%"
                                   height="100%"
-                                  viewbox="0 0 20 21"
+                                  viewBox="0 0 20 21"
                                   fill="none"
                                   xmlns="http://www.w3.org/2000/svg"
                                 >
@@ -1097,7 +1131,7 @@
                                             <div class="nav_dropdown-link_inner">
                                               <div>Contact Info</div>
                                               <div class="nav_dropdown-link_par">
-                                                <p class="text-size-small text-color-space400">text Test.</p>
+                                                
                                               </div>
                                             </div>
                                             <div class="crosshair_wrap">
@@ -1110,7 +1144,7 @@
                                               <div class="icon-embed-small text-color-odessy500 w-embed"><svg
                                                   width="100%"
                                                   height="100%"
-                                                  viewbox="0 0 20 20"
+                                                  viewBox="0 0 20 20"
                                                   fill="none"
                                                   xmlns="http://www.w3.org/2000/svg"
                                                 >
@@ -1123,6 +1157,7 @@
                                             </div>
                                           </a>
                                         </div>
+                                        
                                       </div>
                                       <div class="nav_dropdown-part desc">
                                         <div class="nav_dropdown-menu_desc">
@@ -1143,9 +1178,18 @@
                     </div>
                   </div>
                   <div class="nav_ham">
-                    <div class="nav_ham-line"></div>
-                    <div class="nav_ham-line"></div>
-                    <div class="nav_ham-line"></div>
+                    <div
+                      class="nav_ham-line"
+                      style=""
+                    ></div>
+                    <div
+                      class="nav_ham-line"
+                      style=""
+                    ></div>
+                    <div
+                      class="nav_ham-line"
+                      style=""
+                    ></div>
                   </div>
                 </div>
               </div>
@@ -1155,1065 +1199,386 @@
       </div>
     </nav>
     <div class="main-wrapper">
-      <section class="section no-border-top">
+      <section class="section background-cloud-100">
         <div class="padding-global">
-          <div class="container-large">
-            <div class="padding-section-large">
-              <div class="margin-bottom margin-small">
-                <div class="text-label-medium text-color-cloud900">Mission</div>
-              </div>
-              <div class="header02_component">
-                <div class="header02_row">
-                  <div class="max-width-large">
-                    <h1 class="text-weight-medium">Pioneering the Future of Global Weather Forecast with AI</h1>
-                  </div><a
-                    href="#intro"
-                    class="header02_arrow w-inline-block"
-                  >
-                    <div
-                      link-arrow=""
-                      class="icon-embed-large text-color-odessy400 w-embed"
-                    ><svg
-                        width="100%"
-                        height="100%"
-                        viewbox="0 0 65 65"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <circle
-                          class="arrow-circle"
-                          cx="32"
-                          cy="32"
-                          r="32"
-                          fill="#344d91"
-                        ></circle>
-                        <mask
-                          id="mask0_489_9557"
-                          style="mask-type:alpha"
-                          maskunits="userSpaceOnUse"
-                          x="12"
-                          y="12"
-                          width="41"
-                          height="41"
-                        >
-                          <rect
-                            x="12.1387"
-                            y="12.3853"
-                            width="40"
-                            height="40"
-                            fill="#D9D9D9"
-                          ></rect>
-                        </mask>
-                        <g mask="url(#mask0_489_9557)">
-                          <path
-                            d="M32.1387 44.4273L20.0967 32.3853L21.0967 31.3853L31.4307 41.7603V20.3433H32.8467V41.7603L43.1807 31.3853L44.1807 32.3853L32.1387 44.4273Z"
-                            fill="currentColor"
-                          ></path>
-                        </g>
-                        <rect
-                          x="0.638672"
-                          y="0.885254"
-                          width="63"
-                          height="63"
-                          rx="31.5"
-                          stroke="#344d91"
-                        ></rect>
-                      </svg></div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section">
-        <div class="padding-global">
-          <div class="header01_visual-split solo">
+          <div class="header01_visual-split">
             <div
-              id="w-node-_7e5d66f0-c82d-450f-cd4b-0d153fc94e3f-a73233f7"
+              id="w-node-b3cd11d0-a4d3-3c1e-06ba-4ba383205120-985e9280"
               class="header01_visual-box"
             ><img
-                src="static/image/turb_home.png"
-                class="image absolute company"
+                src="./static/image/plane.jpg"
+                class="image absolute hide-mobile-landscape"
+              ></div>
+            <div
+              id="w-node-b3cd11d0-a4d3-3c1e-06ba-4ba383205122-985e9280"
+              class="header01_visual-box"
+            ><img
+                src="./static/image/in_flight.jpg"
+                class="image absolute"
               ></div>
           </div>
-        </div>
-      </section>
-      <section class="section no-border-top">
-        <div
-          id="intro"
-          class="anchor"
-        ></div>
-        <div class="padding-global">
           <div class="container-large">
             <div class="padding-section-large">
               <div class="margin-bottom margin-small">
-                <div class="text-label-medium text-color-cloud900">Who we are</div>
+                <div class="text-label-medium text-color-cloud900">Capability</div>
               </div>
-              <div class="header03_component">
-                <div class="max-width-small">
-                  <h2 class="heading-style-h3 text-weight-medium"><span class="text-color-odessy500">An AI-Powered Weather Forecasting Pioneer.</span></h2>
-                </div>
-                <div class="max-width-xmedium">
-                  <p class="text-size-medium text-color-space300">In 2023, our founders — a team of interdisciplinary experts with backgrounds in physics, computer science, and atmospheric sciences — were inspired to revolutionize weather forecasting after witnessing the limitations of traditional methods. Instead of advanced, cutting-edge technology, they found outdated models struggling to keep up with the demands of accurate and timely predictions. Recognizing the critical need for innovation, they embarked on a mission to harness the power of AI and advanced physics to transform weather forecasting.
-
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section no-border-top">
-        <div
-          id="intro"
-          class="anchor"
-        ></div>
-        <div class="padding-global">
-          <div class="container-large">
-            <div class="padding-section-large">
-              <div class="margin-bottom margin-small">
-                <div class="text-label-medium text-color-cloud900">Impact</div>
-              </div>
-              <div class="header03_component">
-                <div class="max-width-small">
-                  <h2 class="heading-style-h3 text-weight-medium">Driving Innovation and Excellence in Weather Forecasting.</h2>
-                </div>
-                <div class="max-width-xmedium">
-                  <p class="text-size-medium text-color-space300">Since our inception, we have partnered with leading research institutions and industry experts to push the boundaries of what is possible in weather prediction. Our innovative solutions have been instrumental in reducing operational costs, enhancing safety, and improving decision-making across various sectors. By continuously refining our models and expanding our data sources, we strive to set new standards in the field of weather forecasting.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section">
-        <div class="padding-global">
-          <div class="container-large">
-            <div class="header01_visual-split divider">
-              <div
-                id="w-node-a7272a6a-8fde-a8b9-af23-aa0f4aea4d49-a73233f7"
-                class="header01_visual-box"
-              ><img
-                  src="static/image/1.svg"
-                  class="image absolute hide-mobile-landscape"
-                ><img
-                  src="static/image/1.svg"
-                  class="image absolute show-mobile-landscape"
-                ></div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section">
-        <div class="padding-global">
-          <div class="container-large">
-            <div class="padding-section-large">
-              <div class="margin-bottom margin-xsmall">
-                <div class="text-label-medium text-color-cloud900">Team</div>
-              </div>
-              <div class="impact_component">
+              <div class="header01_component">
                 <div>
-                  <div class="margin-bottom margin-tiny">
-                    <h2 class="heading-style-h5 text-weight-medium">The Innovators of Tomorrow.</h2>
-                  </div>
-                  <div class="margin-bottom margin-tiny">
-                    <h2 class="heading-style-h5 text-weight-medium">The Pioneers of Precision.</h2>
-                  </div>
-                  <div class="margin-bottom margin-tiny">
-                    <h2 class="heading-style-h5 text-weight-medium">The Guardians of Safety.</h2>
-                  </div>
-                  <div class="margin-bottom margin-tiny">
-                    <h2 class="heading-style-h5 text-weight-medium">We are Avion AI.</h2>
+                  <div class="max-width-small">
+                    <h1 class="text-weight-medium"><span class="text-color-odessy500">Network </span>Management</h1>
                   </div>
                 </div>
-                <div class="impact_content">
-                  <p class="text-size-medium text-color-space300">Combining state-of-the-art AI technology with deep industry knowledge, our team is dedicated to transforming weather forecasting and operational efficiency. Our team comprises top talent from Google, NASA JPL, Caltech, Vanderbilt University, Johns Hopkins University, UIUC, and NYU. With empathy for our users and a relentless pursuit of excellence, we strive to deliver solutions that make a tangible impact today and build a safer, more efficient tomorrow. Our dedication defines us.</p>
-                  <div class="margin-top margin-small"><a
-                      href="/careers"
-                      class="button w-inline-block"
+                <div class="max-width-medium">
+                  <div class="margin-bottom margin-small">
+                    <h2 class="heading-style-h3 text-weight-medium">Resilient Network Operations</h2>
+                  </div>
+                  <p class="text-size-medium text-color-space300">The SkyGrad combines predictive
+                    situational awareness with high-performance user experiences, resulting in consistent and superior
+                    operational advantage for airlines operating in the most challenging, complex, and dynamic airspace
+                    in the world.<br><br>SkyGrad predicts disruptions and suggests viable mitigation strategies,
+                    ensuring resilient and self-recovering network operations.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="margin-bottom margin-small">
+                <div class="text-label-medium text-color-cloud900">AI-enabled Network Management</div>
+              </div>
+              <div class="header03_component">
+                <div class="max-width-small">
+                  <h2 class="heading-style-h3 text-weight-medium">Machine Intelligence To Predict Airspace Demand &amp;
+                    Capacity</h2>
+                </div>
+                <div class="max-width-xmedium">
+                  <p class="text-size-medium text-color-space300">SkyGrad’ sophisticated AI/ML modeling accurately and
+                    reliably predicts the state of the airspace, providing decision makers with a deep understanding of
+                    the operating environment. SkyGrad continuously predicts airspace demand-capacity imbalances and
+                    recommends optimal traffic flow management strategies, enabling an airline&#x27;s ATC team to
+                    proactively and rapidly respond to operational disruptions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="subsection_component">
+                <div class="subsection_visual border">
+                  <div class="subsection_visual-inner"><img
+                      src="static/image/AI_Decisionmaking.jpg"
+                      class="image absolute"
+                    ></div>
+                </div>
+                <div class="max-width-medium">
+                  <div class="margin-bottom margin-small">
+                    <h2 class="heading-style-h3 text-weight-medium">Next-Gen Collaborative Decision Making</h2>
+                  </div>
+                  <p class="text-size-medium text-color-space300">SkyGrad provides network directors, ATC chiefs,
+                    airport station directors, and other airline staff with a unified and common operating picture,
+                    perpetuating a complete and synchronized understanding of operational constraints, limitations, and
+                    opportunities. SkyGrad establishes a single source of truth, allowing distributed
+                    actors to collaborate on complex decisions and strategy execution in a fully synchronized way.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="subsection_component">
+                <div class="max-width-medium">
+                  <div class="margin-bottom margin-small">
+                    <h2 class="heading-style-h3 text-weight-medium">AI-Powered TMI Recommendations</h2>
+                  </div>
+                  <p class="text-size-medium text-color-space300">SkyGrad generates the most optimal network strategy to
+                    minimize the impact of any predicted disruption. Managers can simulate the impact of a traffic
+                    management initiative (TMI) on their network and rapidly quantify any resulting operational
+                    disruption, relative to specific business objectives. SkyGrad allows even the most complex airline
+                    networks to anticipate and adapt to the continuously evolving and highly dynamic conditions,
+                    yielding predictable and efficient network operations.</p>
+                </div>
+                <div class="subsection_visual">
+                  <div class="subsection_visual-inner"><img
+                      src="static/image/1.svg"
+                      class="image absolute"
+                    ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="margin-bottom margin-xlarge">
+                <h2 class="heading-style-h3 text-weight-medium">Features</h2>
+              </div>
+              <div class="features_component">
+                <div class="features_item"><img
+                    src="static/image/1.svg"
+                    class="features_icon"
+                  >
+                  <div>
+                    <div class="margin-bottom margin-xsmall">
+                      <h3 class="text-size-large text-weight-medium">SWIM Data Feeds</h3>
+                    </div>
+                    <p class="text-size-regular text-color-space300">Sophisticated data processing pipeline to fuse and
+                      operationalize all available data within the FAA SWIM feeds.</p>
+                  </div>
+                </div>
+                <div class="features_item"><img
+                    src="static/image/1.svg"
+                    class="features_icon"
+                  >
+                  <div>
+                    <div class="margin-bottom margin-xsmall">
+                      <h3 class="text-size-large text-weight-medium">Low-Touch Integration</h3>
+                    </div>
+                    <p class="text-size-regular text-color-space300">Robust platform data availability eliminates the
+                      requirement for invasive and internally-resourced integration efforts.</p>
+                  </div>
+                </div>
+                <div class="features_item"><img
+                    src="static/image/1.svg"
+                    class="features_icon"
+                  >
+                  <div>
+                    <div class="margin-bottom margin-xsmall">
+                      <h3 class="text-size-large text-weight-medium">User-Defined Strategy</h3>
+                    </div>
+                    <p class="text-size-regular text-color-space300">Easy to integrate business objectives, constraints,
+                      and thresholds to design and execute an optimal network strategy.</p>
+                  </div>
+                </div>
+                <div class="features_item"><img
+                    src="static/image/1.svg"
+                    class="features_icon"
+                  >
+                  <div>
+                    <div class="margin-bottom margin-xsmall">
+                      <h3 class="text-size-large text-weight-medium">Analysis &amp; Reporting</h3>
+                    </div>
+                    <p class="text-size-regular text-color-space300">Quickly conducted post-event assessments using
+                      metrics specific to an airline, simplifying internal reporting and analysis processes.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="stories_component">
+                <div class="stories_content">
+                  <h2 class="heading-style-h3 text-weight-medium">Customer <br>Stories</h2>
+                  <div class="arrows-group full"><a
+                      href="#"
+                      class="w-inline-block"
                     >
-                      <div>Join our team</div>
-                      <div class="crosshair_wrap">
-                        <div class="crosshair _1"></div>
-                        <div class="crosshair _2"></div>
-                        <div class="crosshair _3"></div>
-                        <div class="crosshair _4"></div>
-                      </div>
+                      <div
+                        link-arrow=""
+                        class="slider-arrow prev w-embed"
+                      ><svg
+                          width="99%"
+                          height="99%"
+                          viewbox="0 0 44 44"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            class="arrow-circle"
+                            cx="22"
+                            cy="22"
+                            r="22"
+                            fill="#344d91"
+                          ></circle>
+                          <mask
+                            id="mask0_489_9617"
+                            style="mask-type:alpha"
+                            maskunits="userSpaceOnUse"
+                            x="12"
+                            y="12"
+                            width="20"
+                            height="20"
+                          >
+                            <rect
+                              x="12"
+                              y="12"
+                              width="20"
+                              height="20"
+                              fill="#D9D9D9"
+                            ></rect>
+                          </mask>
+                          <g mask="url(#mask0_489_9617)">
+                            <path
+                              d="M22 28L16 22L22 16L23.062 17.062L18.875 21.25H28V22.75H18.875L23.062 26.938L22 28Z"
+                              fill="currentColor"
+                            ></path>
+                          </g>
+                          <rect
+                            x="0.5"
+                            y="0.5"
+                            width="43"
+                            height="43"
+                            rx="21.5"
+                            stroke="#344d91"
+                          ></rect>
+                        </svg></div>
+                    </a><a
+                      href="#"
+                      class="w-inline-block"
+                    >
+                      <div
+                        link-arrow=""
+                        class="slider-arrow next w-embed"
+                      ><svg
+                          width="99%"
+                          height="99%"
+                          viewbox="0 0 44 44"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            class="arrow-circle"
+                            cx="22"
+                            cy="22"
+                            r="22"
+                            fill="#344d91"
+                          ></circle>
+                          <mask
+                            id="mask0_489_9622"
+                            style="mask-type:alpha"
+                            maskunits="userSpaceOnUse"
+                            x="12"
+                            y="12"
+                            width="20"
+                            height="20"
+                          >
+                            <rect
+                              x="32"
+                              y="32"
+                              width="20"
+                              height="20"
+                              transform="rotate(-180 32 32)"
+                              fill="#D9D9D9"
+                            ></rect>
+                          </mask>
+                          <g mask="url(#mask0_489_9622)">
+                            <path
+                              d="M22 16L28 22L22 28L20.938 26.938L25.125 22.75L16 22.75L16 21.25L25.125 21.25L20.938 17.062L22 16Z"
+                              fill="currentColor"
+                            ></path>
+                          </g>
+                          <rect
+                            x="0.5"
+                            y="0.5"
+                            width="43"
+                            height="43"
+                            rx="21.5"
+                            stroke="#344d91"
+                          ></rect>
+                        </svg></div>
                     </a></div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section hide">
-        <div class="padding-global">
-          <div class="container-medium">
-            <div class="padding-bottom padding-huge">
-              <div class="team_component-cms w-dyn-list">
-                <div
-                  role="list"
-                  class="team_component w-dyn-items"
-                >
-                  <div
-                    role="listitem"
-                    class="team_item w-dyn-item"
-                  >
-                    <div class="team_visual"><img
-                        src="static/image/1.svg"
-                        class="image absolute"
-                      ></div>
-                    <div>
-                      <h3 class="text-size-medium text-weight-medium">Phillip Buckendorf</h3>
-                      <p class="text-size-small text-color-space100">CEO &amp; Co-Founder</p>
-                    </div>
-                  </div>
-                  <div
-                    role="listitem"
-                    class="team_item w-dyn-item"
-                  >
-                    <div class="team_visual"><img
-                        src="static/image/1.svg"
-                        class="image absolute"
-                      ></div>
-                    <div>
-                      <h3 class="text-size-medium text-weight-medium">Kris Dorosz</h3>
-                      <p class="text-size-small text-color-space100">CTO &amp; Co-Founder</p>
-                    </div>
-                  </div>
-                  <div
-                    role="listitem"
-                    class="team_item w-dyn-item"
-                  >
-                    <div class="team_visual"><img
-                        src="static/image/1.svg"
-                        class="image absolute"
-                      ></div>
-                    <div>
-                      <h3 class="text-size-medium text-weight-medium">Lucas Kukielka</h3>
-                      <p class="text-size-small text-color-space100">Co-Founder</p>
-                    </div>
-                  </div>
-                  <div
-                    role="listitem"
-                    class="team_item w-dyn-item"
-                  >
-                    <div class="team_visual"><img
-                        src="static/image/1.svg"
-                        class="image absolute"
-                      ></div>
-                    <div>
-                      <h3 class="text-size-medium text-weight-medium">Bernard Asare</h3>
-                      <p class="text-size-small text-color-space100">VP of Business Development</p>
-                    </div>
-                  </div>
-                  <div
-                    role="listitem"
-                    class="team_item w-dyn-item"
-                  >
-                    <div class="team_visual"><img
-                        src="static/image/1.svg"
-                        class="image absolute"
-                      ></div>
-                    <div>
-                      <h3 class="text-size-medium text-weight-medium">Gosia Barzowska</h3>
-                      <p class="text-size-small text-color-space100">Head of Operations</p>
-                    </div>
-                  </div>
-                  <div
-                    role="listitem"
-                    class="team_item w-dyn-item"
-                  >
-                    <div class="team_visual"><img
-                        src="static/image/1.svg"
-                        class="image absolute"
-                      ></div>
-                    <div>
-                      <h3 class="text-size-medium text-weight-medium">James Power</h3>
-                      <p class="text-size-small text-color-space100">Deployment Strategist</p>
-                    </div>
-                  </div>
-                  <div
-                    role="listitem"
-                    class="team_item w-dyn-item"
-                  >
-                    <div class="team_visual"><img
-                        src="static/image/1.svg"
-                        class="image absolute"
-                      ></div>
-                    <div>
-                      <h3 class="text-size-medium text-weight-medium">Mark Lepczyk</h3>
-                      <p class="text-size-small text-color-space100">Deployment Strategist</p>
-                    </div>
-                  </div>
-                  <div
-                    role="listitem"
-                    class="team_item w-dyn-item"
-                  >
-                    <div class="team_visual"><img
-                        src="static/image/1.svg"
-                        class="image absolute"
-                      ></div>
-                    <div>
-                      <h3 class="text-size-medium text-weight-medium">Jakub Mikians</h3>
-                      <p class="text-size-small text-color-space100">Staff Engineer</p>
-                    </div>
-                  </div>
-                  <div
-                    role="listitem"
-                    class="team_item w-dyn-item"
-                  >
-                    <div class="team_visual"><img
-                        src="static/image/1.svg"
-                        class="image absolute"
-                      ></div>
-                    <div>
-                      <h3 class="text-size-medium text-weight-medium">Pawel Kopec</h3>
-                      <p class="text-size-small text-color-space100">Foundation Engineering Lead</p>
-                    </div>
-                  </div>
-                  <div
-                    role="listitem"
-                    class="team_item w-dyn-item"
-                  >
-                    <div class="team_visual"><img
-                        src="static/image/1.svg"
-                        class="image absolute"
-                      ></div>
-                    <div>
-                      <h3 class="text-size-medium text-weight-medium">Michal Gorecki</h3>
-                      <p class="text-size-small text-color-space100">Optimization Engineer Lead</p>
-                    </div>
-                  </div>
-                  <div
-                    role="listitem"
-                    class="team_item w-dyn-item"
-                  >
-                    <div class="team_visual"><img
-                        src="static/image/1.svg"
-                        class="image absolute"
-                      ></div>
-                    <div>
-                      <h3 class="text-size-medium text-weight-medium">Piotr Mazur</h3>
-                      <p class="text-size-small text-color-space100">Prediction Lead</p>
-                    </div>
-                  </div>
-                  <div
-                    role="listitem"
-                    class="team_item w-dyn-item"
-                  >
-                    <div class="team_visual"><img
-                        src="static/image/1.svg"
-                        class="image absolute"
-                      ></div>
-                    <div>
-                      <h3 class="text-size-medium text-weight-medium">Peter Kowenzowski</h3>
-                      <p class="text-size-small text-color-space100">SRE Lead</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section">
-        <div class="padding-global">
-          <div class="container-large">
-            <div class="padding-section-large">
-              <div class="investors_component">
-                <div class="padding-top padding-huge">
-                  <div class="investors_wrap">
-                    <div class="text-label-medium text-color-cloud900">Investors</div>
-                    <div class="investors_box-wrap w-dyn-list">
-                      <div
-                        role="list"
-                        class="investors_box w-dyn-items"
-                      >
-                        <div
-                          role="listitem"
-                          class="investors_box-item w-dyn-item"
-                        ><a
-                            href="https://a16z.com/american-dynamism/"
-                            class="investors_item w-inline-block"
-                          ><img
-                              loading="lazy"
-                              alt=""
-                              src="static/image/1.svg"
-                              class="investors_logo"
-                            >
-                            <div class="crosshair_wrap">
-                              <div class="crosshair _1"></div>
-                              <div class="crosshair _2"></div>
-                              <div class="crosshair _3"></div>
-                              <div class="crosshair _4"></div>
-                            </div>
-                          </a></div>
-                        <div
-                          role="listitem"
-                          class="investors_box-item w-dyn-item"
-                        ><a
-                            href="https://www.sparkcapital.com/"
-                            class="investors_item w-inline-block"
-                          ><img
-                              loading="lazy"
-                              alt=""
-                              src="static/image/1.svg"
-                              class="investors_logo"
-                            >
-                            <div class="crosshair_wrap">
-                              <div class="crosshair _1"></div>
-                              <div class="crosshair _2"></div>
-                              <div class="crosshair _3"></div>
-                              <div class="crosshair _4"></div>
-                            </div>
-                          </a></div>
-                        <div
-                          role="listitem"
-                          class="investors_box-item w-dyn-item"
-                        ><a
-                            href="https://www.renegadepartners.com/"
-                            class="investors_item w-inline-block"
-                          ><img
-                              loading="lazy"
-                              alt=""
-                              src="static/image/1.svg"
-                              class="investors_logo"
-                            >
-                            <div class="crosshair_wrap">
-                              <div class="crosshair _1"></div>
-                              <div class="crosshair _2"></div>
-                              <div class="crosshair _3"></div>
-                              <div class="crosshair _4"></div>
-                            </div>
-                          </a></div>
-                        <div
-                          role="listitem"
-                          class="investors_box-item w-dyn-item"
-                        ><a
-                            href="https://www.jpmorgan.com/"
-                            class="investors_item w-inline-block"
-                          ><img
-                              loading="lazy"
-                              alt=""
-                              src="static/image/1.svg"
-                              class="investors_logo"
-                            >
-                            <div class="crosshair_wrap">
-                              <div class="crosshair _1"></div>
-                              <div class="crosshair _2"></div>
-                              <div class="crosshair _3"></div>
-                              <div class="crosshair _4"></div>
-                            </div>
-                          </a></div>
-                        <div
-                          role="listitem"
-                          class="investors_box-item w-dyn-item"
-                        ><a
-                            href="https://www.gradient.com/"
-                            class="investors_item w-inline-block"
-                          ><img
-                              loading="lazy"
-                              alt=""
-                              src="static/image/1.svg"
-                              class="investors_logo"
-                            >
-                            <div class="crosshair_wrap">
-                              <div class="crosshair _1"></div>
-                              <div class="crosshair _2"></div>
-                              <div class="crosshair _3"></div>
-                              <div class="crosshair _4"></div>
-                            </div>
-                          </a></div>
-                        <div
-                          role="listitem"
-                          class="investors_box-item w-dyn-item"
-                        ><a
-                            href="https://github.com/Bloomberg-Beta/Manual"
-                            class="investors_item w-inline-block"
-                          ><img
-                              loading="lazy"
-                              alt=""
-                              src="static/image/1.svg"
-                              class="investors_logo"
-                            >
-                            <div class="crosshair_wrap">
-                              <div class="crosshair _1"></div>
-                              <div class="crosshair _2"></div>
-                              <div class="crosshair _3"></div>
-                              <div class="crosshair _4"></div>
-                            </div>
-                          </a></div>
-                        <div
-                          role="listitem"
-                          class="investors_box-item w-dyn-item"
-                        ><a
-                            href="https://www.franklintempleton.com/"
-                            class="investors_item w-inline-block"
-                          ><img
-                              loading="lazy"
-                              alt=""
-                              src="static/image/1.svg"
-                              class="investors_logo"
-                            >
-                            <div class="crosshair_wrap">
-                              <div class="crosshair _1"></div>
-                              <div class="crosshair _2"></div>
-                              <div class="crosshair _3"></div>
-                              <div class="crosshair _4"></div>
-                            </div>
-                          </a></div>
-                        <div
-                          role="listitem"
-                          class="investors_box-item w-dyn-item"
-                        ><a
-                            href="https://www.xyz.vc/"
-                            class="investors_item w-inline-block"
-                          ><img
-                              loading="lazy"
-                              alt=""
-                              src="static/image/1.svg"
-                              class="investors_logo"
-                            >
-                            <div class="crosshair_wrap">
-                              <div class="crosshair _1"></div>
-                              <div class="crosshair _2"></div>
-                              <div class="crosshair _3"></div>
-                              <div class="crosshair _4"></div>
-                            </div>
-                          </a></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section">
-        <div class="padding-global">
-          <div class="container-large">
-            <div class="padding-section-large">
-              <div class="details_component">
-                <div class="margin-bottom margin-medium">
-                  <div class="text-label-medium text-weight-medium text-color-cloud900">JOIN US</div>
-                </div>
-                <div class="margin-bottom margin-medium">
-                  <div class="max-width-xmedium">
-                    <h2 class="heading-style-h3 text-weight-medium">Be Part of the Future of Weather Forecasting.</h2>
-                  </div>
-                </div>
-                <div class="details_wrap _2">
-                  <div class="details_wrap-item">
-                    <p class="text-size-regular text-color-space300">We are always on the lookout for passionate individuals who share our vision of transforming weather prediction through AI and advanced technology. Whether you are a researcher, developer, or industry professional, we invite you to join us in our mission to revolutionize weather forecasting and make a tangible impact on the world.</p>
-                  </div>
-                  <div class="details_wrap-item">
-                    <p class="text-size-regular text-color-space300">Turning data into informed decisions at this scale
-                      is impossible through human capacity alone. We work closely with our customers and their teams. We
-                      send our engineers to sit side-by-side with the operators. We seek to find the most critical
-                      problems and deploy capabilities in weeks, not years, to provide our customers with an operating
-                      advantage when they most need it.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section no-border-top hide">
-        <div class="padding-global">
-          <div class="container-medium">
-            <div class="padding-bottom padding-huge">
-              <div class="customers_component-cms w-dyn-list">
-                <div class="w-dyn-empty">
-                  <div>No items found.</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section">
-        <div class="padding-global">
-          <div class="container-large">
-            <div class="padding-section-large">
-              <div class="news_component">
-                <div class="news_part">
-                  <div class="max-width-xxsmall">
-                    <h2 class="heading-style-h3 text-weight-medium">Industry News</h2>
-                  </div>
-                </div>
-                <div class="news_part">
-                  <div class="news_slider w-dyn-list">
+                <div class="stories_slider">
+                  <div class="stories_slider-cms w-dyn-list">
                     <div
                       role="list"
-                      class="news_slide w-dyn-items"
+                      class="swiper-wrapper w-dyn-items"
                     >
                       <div
                         role="listitem"
-                        class="articles_item w-dyn-item"
-                      ><a
-                          href="https://time.com/6050921/artificial-intelligence-air-travel/"
-                          class="articles_inner w-inline-block"
-                        >
-                          <div>
-                            <div class="margin-bottom margin-xsmall"><img
-                                src="static/image/1.svg"
-                                class="news_logo"
-                              ></div>
-                            <p class="text-size-regular text-color-space300">&quot;Artificial Intelligence may be
-                              planning your next flight&quot;</p>
+                        class="swiper-slide stories w-dyn-item"
+                      >
+                        <div class="stories_item">
+                          <div class="stories_head">
+                            <div class="text-label-small text-color-cloud800">Testimonial</div>
                           </div>
-                          <div
-                            link-arrow=""
-                            class="articles_arrow text-color-odessy500 w-embed"
-                          ><svg
-                              width="100%"
-                              height="100%"
-                              viewbox="0 0 36 36"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <circle
-                                class="arrow-circle"
-                                cx="18"
-                                cy="18"
-                                r="18"
-                                fill="#344d91"
-                              ></circle>
-                              <mask
-                                id="mask0_489_9572"
-                                style="mask-type:alpha"
-                                maskunits="userSpaceOnUse"
-                                x="8"
-                                y="8"
-                                width="20"
-                                height="20"
-                              >
-                                <rect
-                                  x="8"
-                                  y="8"
-                                  width="20"
-                                  height="20"
-                                  fill="#D6D9E1"
-                                ></rect>
-                              </mask>
-                              <g mask="url(#mask0_489_9572)">
-                                <path
-                                  d="M13.0625 23L12 21.9375L20.4375 13.5H13V12H23V22H21.5V14.5625L13.0625 23Z"
-                                  fill="currentColor"
-                                ></path>
-                              </g>
-                            </svg></div>
-                          <div class="crosshair_wrap">
-                            <div class="crosshair _1"></div>
-                            <div class="crosshair _2"></div>
-                            <div class="crosshair _3"></div>
-                            <div class="crosshair _4"></div>
+                          <div class="stories_body">
+                            <p class="text-size-regular">“Operational efficiency is a big one for us, a culture of
+                              efficiency. [..] One of the cool things that we implemented using artificial intelligence
+                              and machine learning is SkyGrad. [..] Think of it as Waze in the sky. And it’s already
+                              helped us save track miles in the sky and reduce how much gas we burn, which reduces
+                              emissions.”</p>
                           </div>
-                        </a><a
-                          href="/newsroom"
-                          class="articles_item cta w-inline-block w-condition-invisible"
-                        >
-                          <div class="text-size-medium text-weight-medium text-color-odessy500">See all articles</div>
-                          <div
-                            link-arrow=""
-                            class="articles_arrow text-color-odessy500 w-embed"
-                          ><svg
-                              width="100%"
-                              height="100%"
-                              viewbox="0 0 36 36"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <circle
-                                class="arrow-circle"
-                                cx="18"
-                                cy="18"
-                                r="18"
-                                fill="#344d91"
-                              ></circle>
-                              <mask
-                                id="mask0_489_9696"
-                                style="mask-type:alpha"
-                                maskunits="userSpaceOnUse"
-                                x="8"
-                                y="8"
-                                width="20"
-                                height="20"
-                              >
-                                <rect
-                                  x="8"
-                                  y="8"
-                                  width="20"
-                                  height="20"
-                                  fill="#D6D9E1"
-                                ></rect>
-                              </mask>
-                              <g mask="url(#mask0_489_9696)">
-                                <path
-                                  d="M10.4731 18.2512V16.7486H22.4056L17.1464 11.4894L18.2071 10.4288L25.2782 17.4999L18.2071 24.5709L17.1464 23.5103L22.4056 18.2512H10.4731Z"
-                                  fill="currentColor"
-                                ></path>
-                              </g>
-                            </svg></div>
-                          <div class="crosshair_wrap">
-                            <div class="crosshair _1"></div>
-                            <div class="crosshair _2"></div>
-                            <div class="crosshair _3"></div>
-                            <div class="crosshair _4"></div>
+                          <div class="stories_info">
+                            <div class="stories_name">
+                              <div class="text-size-tiny text-weight-medium">XXX XXXX</div>
+                              <div class="text-size-regular">/</div>
+                              <div class="text-size-tiny text-color-cloud800">XXX</div>
+                            </div>
+                            <div class="text-size-tiny text-weight-medium text-color-cloud900">XXX Airlines</div>
                           </div>
-                        </a></div>
+                        </div>
+                      </div>
                       <div
                         role="listitem"
-                        class="articles_item w-dyn-item"
-                      ><a
-                          href="https://www.washingtonpost.com/washington-post-live/2021/07/01/transcript-future-flight-with-alaska-air-group-ceo-ben-minicucci-neste-us-president-jeremy-baines/"
-                          class="articles_inner w-inline-block"
-                        >
-                          <div>
-                            <div class="margin-bottom margin-xsmall"><img
-                                src="static/image/1.svg"
-                                class="news_logo"
-                              ></div>
-                            <p class="text-size-regular text-color-space300">&quot;Future of Flight: Think of it as Waze
-                              in the sky&quot;</p>
+                        class="swiper-slide stories w-dyn-item"
+                      >
+                        <div class="stories_item">
+                          <div class="stories_head">
+                            <div class="text-label-small text-color-cloud800">Testimonial</div>
                           </div>
-                          <div
-                            link-arrow=""
-                            class="articles_arrow text-color-odessy500 w-embed"
-                          ><svg
-                              width="100%"
-                              height="100%"
-                              viewbox="0 0 36 36"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <circle
-                                class="arrow-circle"
-                                cx="18"
-                                cy="18"
-                                r="18"
-                                fill="#344d91"
-                              ></circle>
-                              <mask
-                                id="mask0_489_9572"
-                                style="mask-type:alpha"
-                                maskunits="userSpaceOnUse"
-                                x="8"
-                                y="8"
-                                width="20"
-                                height="20"
-                              >
-                                <rect
-                                  x="8"
-                                  y="8"
-                                  width="20"
-                                  height="20"
-                                  fill="#D6D9E1"
-                                ></rect>
-                              </mask>
-                              <g mask="url(#mask0_489_9572)">
-                                <path
-                                  d="M13.0625 23L12 21.9375L20.4375 13.5H13V12H23V22H21.5V14.5625L13.0625 23Z"
-                                  fill="currentColor"
-                                ></path>
-                              </g>
-                            </svg></div>
-                          <div class="crosshair_wrap">
-                            <div class="crosshair _1"></div>
-                            <div class="crosshair _2"></div>
-                            <div class="crosshair _3"></div>
-                            <div class="crosshair _4"></div>
+                          <div class="stories_body">
+                            <p class="text-size-regular">&quot;Real-time network-wide optimization of flight plans is
+                              now a reality, and every U.S. airline can benefit from this exciting and reliable
+                              technology.&quot;</p>
                           </div>
-                        </a><a
-                          href="/newsroom"
-                          class="articles_item cta w-inline-block w-condition-invisible"
-                        >
-                          <div class="text-size-medium text-weight-medium text-color-odessy500">See all articles</div>
-                          <div
-                            link-arrow=""
-                            class="articles_arrow text-color-odessy500 w-embed"
-                          ><svg
-                              width="100%"
-                              height="100%"
-                              viewbox="0 0 36 36"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <circle
-                                class="arrow-circle"
-                                cx="18"
-                                cy="18"
-                                r="18"
-                                fill="#344d91"
-                              ></circle>
-                              <mask
-                                id="mask0_489_9696"
-                                style="mask-type:alpha"
-                                maskunits="userSpaceOnUse"
-                                x="8"
-                                y="8"
-                                width="20"
-                                height="20"
-                              >
-                                <rect
-                                  x="8"
-                                  y="8"
-                                  width="20"
-                                  height="20"
-                                  fill="#D6D9E1"
-                                ></rect>
-                              </mask>
-                              <g mask="url(#mask0_489_9696)">
-                                <path
-                                  d="M10.4731 18.2512V16.7486H22.4056L17.1464 11.4894L18.2071 10.4288L25.2782 17.4999L18.2071 24.5709L17.1464 23.5103L22.4056 18.2512H10.4731Z"
-                                  fill="currentColor"
-                                ></path>
-                              </g>
-                            </svg></div>
-                          <div class="crosshair_wrap">
-                            <div class="crosshair _1"></div>
-                            <div class="crosshair _2"></div>
-                            <div class="crosshair _3"></div>
-                            <div class="crosshair _4"></div>
+                          <div class="stories_info">
+                            <div class="stories_name">
+                              <div class="text-size-tiny text-weight-medium">XXX XXXX</div>
+                              <div class="text-size-regular">/</div>
+                              <div class="text-size-tiny text-color-cloud800">XXX </div>
+                            </div>
+                            <div class="text-size-tiny text-weight-medium text-color-cloud900">XXXX Airlines</div>
                           </div>
-                        </a></div>
+                        </div>
+                      </div>
                       <div
                         role="listitem"
-                        class="articles_item w-dyn-item"
-                      ><a
-                          href="https://fortune.com/2021/07/27/alaska-airlines-ai-flight-dispatch-airspace-intelligence/"
-                          class="articles_inner w-inline-block"
-                        >
-                          <div>
-                            <div class="margin-bottom margin-xsmall"><img
-                                src="static/image/1.svg"
-                                class="news_logo"
-                              ></div>
-                            <p class="text-size-regular text-color-space300">“This is as game changing for aviation as
-                              Google Maps has been for driving&quot;</p>
+                        class="swiper-slide stories w-dyn-item"
+                      >
+                        <div class="stories_item">
+                          <div class="stories_head">
+                            <div class="text-label-small text-color-cloud800">Testimonial</div>
                           </div>
-                          <div
-                            link-arrow=""
-                            class="articles_arrow text-color-odessy500 w-embed"
-                          ><svg
-                              width="100%"
-                              height="100%"
-                              viewbox="0 0 36 36"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <circle
-                                class="arrow-circle"
-                                cx="18"
-                                cy="18"
-                                r="18"
-                                fill="#344d91"
-                              ></circle>
-                              <mask
-                                id="mask0_489_9572"
-                                style="mask-type:alpha"
-                                maskunits="userSpaceOnUse"
-                                x="8"
-                                y="8"
-                                width="20"
-                                height="20"
-                              >
-                                <rect
-                                  x="8"
-                                  y="8"
-                                  width="20"
-                                  height="20"
-                                  fill="#D6D9E1"
-                                ></rect>
-                              </mask>
-                              <g mask="url(#mask0_489_9572)">
-                                <path
-                                  d="M13.0625 23L12 21.9375L20.4375 13.5H13V12H23V22H21.5V14.5625L13.0625 23Z"
-                                  fill="currentColor"
-                                ></path>
-                              </g>
-                            </svg></div>
-                          <div class="crosshair_wrap">
-                            <div class="crosshair _1"></div>
-                            <div class="crosshair _2"></div>
-                            <div class="crosshair _3"></div>
-                            <div class="crosshair _4"></div>
+                          <div class="stories_body">
+                            <p class="text-size-regular">&quot;SkyGrad AI has transformed how XXXX Airlines approaches
+                              route planning and optimization, enabling our highly skilled dispatchers to work even
+                              smarter to deliver the safest and most efficient routes to our pilots, saving time and
+                              carbon emissions, mitigating congestion.”</p>
                           </div>
-                        </a><a
-                          href="/newsroom"
-                          class="articles_item cta w-inline-block w-condition-invisible"
-                        >
-                          <div class="text-size-medium text-weight-medium text-color-odessy500">See all articles</div>
-                          <div
-                            link-arrow=""
-                            class="articles_arrow text-color-odessy500 w-embed"
-                          ><svg
-                              width="100%"
-                              height="100%"
-                              viewbox="0 0 36 36"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <circle
-                                class="arrow-circle"
-                                cx="18"
-                                cy="18"
-                                r="18"
-                                fill="#344d91"
-                              ></circle>
-                              <mask
-                                id="mask0_489_9696"
-                                style="mask-type:alpha"
-                                maskunits="userSpaceOnUse"
-                                x="8"
-                                y="8"
-                                width="20"
-                                height="20"
-                              >
-                                <rect
-                                  x="8"
-                                  y="8"
-                                  width="20"
-                                  height="20"
-                                  fill="#D6D9E1"
-                                ></rect>
-                              </mask>
-                              <g mask="url(#mask0_489_9696)">
-                                <path
-                                  d="M10.4731 18.2512V16.7486H22.4056L17.1464 11.4894L18.2071 10.4288L25.2782 17.4999L18.2071 24.5709L17.1464 23.5103L22.4056 18.2512H10.4731Z"
-                                  fill="currentColor"
-                                ></path>
-                              </g>
-                            </svg></div>
-                          <div class="crosshair_wrap">
-                            <div class="crosshair _1"></div>
-                            <div class="crosshair _2"></div>
-                            <div class="crosshair _3"></div>
-                            <div class="crosshair _4"></div>
+                          <div class="stories_info">
+                            <div class="stories_name">
+                              <div class="text-size-tiny text-weight-medium">XXX XXXX</div>
+                              <div class="text-size-regular">/</div>
+                              <div class="text-size-tiny text-color-cloud800">XXX</div>
+                            </div>
+                            <div class="text-size-tiny text-weight-medium text-color-cloud900">XXX Airlines</div>
                           </div>
-                        </a></div>
-                      <div
-                        role="listitem"
-                        class="articles_item w-dyn-item"
-                      ><a
-                          href="#"
-                          class="articles_inner w-inline-block w-condition-invisible"
-                        >
-                          <div>
-                            <div class="margin-bottom margin-xsmall"><img
-                                loading="lazy"
-                                alt="See all articles"
-                                src=""
-                                class="news_logo w-dyn-bind-empty"
-                              ></div>
-                            <p class="text-size-regular text-color-space300 w-dyn-bind-empty"></p>
-                          </div>
-                          <div
-                            link-arrow=""
-                            class="articles_arrow text-color-odessy500 w-embed"
-                          ><svg
-                              width="100%"
-                              height="100%"
-                              viewbox="0 0 36 36"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <circle
-                                class="arrow-circle"
-                                cx="18"
-                                cy="18"
-                                r="18"
-                                fill="#344d91"
-                              ></circle>
-                              <mask
-                                id="mask0_489_9572"
-                                style="mask-type:alpha"
-                                maskunits="userSpaceOnUse"
-                                x="8"
-                                y="8"
-                                width="20"
-                                height="20"
-                              >
-                                <rect
-                                  x="8"
-                                  y="8"
-                                  width="20"
-                                  height="20"
-                                  fill="#D6D9E1"
-                                ></rect>
-                              </mask>
-                              <g mask="url(#mask0_489_9572)">
-                                <path
-                                  d="M13.0625 23L12 21.9375L20.4375 13.5H13V12H23V22H21.5V14.5625L13.0625 23Z"
-                                  fill="currentColor"
-                                ></path>
-                              </g>
-                            </svg></div>
-                          <div class="crosshair_wrap">
-                            <div class="crosshair _1"></div>
-                            <div class="crosshair _2"></div>
-                            <div class="crosshair _3"></div>
-                            <div class="crosshair _4"></div>
-                          </div>
-                        </a><a
-                          href="/newsroom"
-                          class="articles_item cta w-inline-block"
-                        >
-                          <div class="text-size-medium text-weight-medium text-color-odessy500">See all articles</div>
-                          <div
-                            link-arrow=""
-                            class="articles_arrow text-color-odessy500 w-embed"
-                          ><svg
-                              width="100%"
-                              height="100%"
-                              viewbox="0 0 36 36"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <circle
-                                class="arrow-circle"
-                                cx="18"
-                                cy="18"
-                                r="18"
-                                fill="#344d91"
-                              ></circle>
-                              <mask
-                                id="mask0_489_9696"
-                                style="mask-type:alpha"
-                                maskunits="userSpaceOnUse"
-                                x="8"
-                                y="8"
-                                width="20"
-                                height="20"
-                              >
-                                <rect
-                                  x="8"
-                                  y="8"
-                                  width="20"
-                                  height="20"
-                                  fill="#D6D9E1"
-                                ></rect>
-                              </mask>
-                              <g mask="url(#mask0_489_9696)">
-                                <path
-                                  d="M10.4731 18.2512V16.7486H22.4056L17.1464 11.4894L18.2071 10.4288L25.2782 17.4999L18.2071 24.5709L17.1464 23.5103L22.4056 18.2512H10.4731Z"
-                                  fill="currentColor"
-                                ></path>
-                              </g>
-                            </svg></div>
-                          <div class="crosshair_wrap">
-                            <div class="crosshair _1"></div>
-                            <div class="crosshair _2"></div>
-                            <div class="crosshair _3"></div>
-                            <div class="crosshair _4"></div>
-                          </div>
-                        </a></div>
+                        </div>
+                      </div>
                     </div>
                   </div>
+                  <div class="swiper-navigation"></div>
+                  <div class="stories_mask"></div>
                 </div>
               </div>
             </div>
@@ -2235,12 +1600,11 @@
                       src="./static/image/logo.png"
                       alt=""
                     >
-                    <div class="text-color-space100">Avion AI</div>
                   </div>
                 </a>
                 <div class="footer_links">
                   <a class="nav_link footer w-inline-block">
-                    <div>link1</div>
+                    <div>SkyGrad</div>
                   </a>
                   <a class="nav_link footer w-inline-block">
                     <div>link2</div>
